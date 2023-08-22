@@ -1,0 +1,12 @@
+age<-c(23,23,27,27,39,41,47,49,50,52,54,54,56,57,58,58,60,61)
+min<-0
+max<-1
+  min_max=35-23/61-23
+min_max
+
+m=mean(age)
+s=sd(age)
+z_score=35-m/s
+z_score
+decimal_scaling=m/100
+decimal_scaling
